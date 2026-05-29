@@ -132,7 +132,7 @@ if btn_general:
 
 elif btn_bestseller:
     filtered_books = df_processed[df_processed['도서명'].isin(bestseller_korean_titles)]
-    success_msg = f"🔥 [초인기 베스트셀러] 한글화 패치 완료된 {len(filtered_books)}권 중 랜덤 3권 추천"
+    success_msg = f"🔥 [인기 베스트셀러] 한글화 패치 완료된 {len(filtered_books)}권 중 랜덤 3권 추천"
 
 # ==========================================
 # 5. 책 표지가 포함된 고급 카드형 UI 출력
